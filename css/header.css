@@ -1,0 +1,83 @@
+/* Стилі для шапки */
+header {
+    background-image: url('../picture/main/Ара.jpg');
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.search select, .search button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Стилі для головного блоку */
+/* Стилі для блоку тексту на картинці */
+.hero {
+    position: relative; /* Встановлюємо позицію відносно */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-text {
+    position: absolute; /* Встановлюємо абсолютне позиціонування */
+    top: 50%; /* Розміщуємо блок тексту по центру вертикалі */
+    left: 50%; /* Розміщуємо блок тексту по центру горизонталі */
+    transform: translate(-50%, -50%); /* Центруємо блок тексту відносно його власних розмірів */
+    background-color: rgba(0, 0, 0, 0.5); /* Прозорий чорний фон */
+    padding: 20px; /* Параметри відступів */
+    border-radius: 10px; /* Закруглені кути */
+    color: #fff; /* Колір тексту */
+}
+
+.hero-text h1, .hero-text p {
+    margin: 0; /* Видаляємо зовнішні відступи */
+}
+
+footer {
+    background-image: url('../picture/main/Часть1.png');
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
